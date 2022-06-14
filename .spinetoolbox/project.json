@@ -1,11 +1,24 @@
 {
     "project": {
-        "version": 6,
-        "name": "toolbox-project-template",
-        "description": "This is a template for Spine Toolbox projects",
+        "version": 7,
+        "name": "COMPETES 2022",
+        "description": "",
         "specifications": {},
         "connections": [],
         "jumps": []
     },
-    "items": {}
+    "items": {
+        "TradeRES DB": {
+            "type": "Data Store",
+            "description": "",
+            "x": -207.6327111586084,
+            "y": -112.77044502860765,
+            "url": {
+                "dialect": "mysql",
+                "host": "localhost",
+                "port": "44999",
+                "database": "traderes"
+            }
+        }
+    }
 }
